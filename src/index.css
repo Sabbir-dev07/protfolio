@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* Absolute Override for Headings & Branding - Orbitron */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-display,
+  .font-heading,
+  #navbar-logo,
+  .font-orbitron {
+    font-family: 'Orbitron', sans-serif !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight text-slate-100;
+  }
+}
+
+:root {
+  --foreground-rgb: 240, 244, 255;
+  --background-start-rgb: 10, 10, 15;
+  --background-end-rgb: 10, 10, 15;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #0a0a0f;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(192, 132, 252, 0.5), 0 0 20px rgba(192, 132, 252, 0.3);
+  }
+
+  .glass-card {
+    @apply bg-[#111117]/80 backdrop-blur-md border border-white/10 shadow-xl rounded-2xl;
+  }
+
+  .glass {
+    @apply bg-[#0a0a0f]/70 backdrop-blur-xl border-b border-white/10;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .neon-border {
+    @apply border border-primary/50 shadow-[0_0_10px_rgba(192, 132, 252, 0.3)];
+  }
+
+  /* Smooth transitions for all interactive elements */
+  .transition-all-300 {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-6 md:px-12 max-w-7xl;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333340;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c084fc;
+}
