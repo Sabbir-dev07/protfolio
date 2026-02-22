@@ -99,7 +99,7 @@ export const experience = [
         company: "Freelance",
         position: "Full Stack Developer",
         period: "2025 - Present",
-        description: "Leading development of enterprise web applications, mentoring junior developers, and implementing best practices for code quality and performance.",
+        description: "Developing full-stack web applications using modern frontend and backend technologies. Responsible for building responsive user interfaces, implementing server-side logic, managing databases, and ensuring clean, scalable, and performance-oriented solutions.",
         technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "React", "Redux", "Next.js", "Node.js", "Express.js", "PHP", "Python", "Django", "MongoDB", "MySQL"]
     },
     {
@@ -107,7 +107,7 @@ export const experience = [
         company: "Bseba Software",
         position: "Junior Developer",
         period: "2024 - 2025",
-        description: "Developed responsive web applications for various clients, collaborated with designers to implement pixel-perfect UIs, and optimized application performance.",
+        description: "Assisted in developing responsive web applications, implementing structured user interfaces, and integrating backend services. Supported debugging, database management, and performance optimization to ensure reliable application delivery.",
         technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React", "Node.js", "Express.js", "MongoDB", "Firebase"]
     },
     {
@@ -115,7 +115,7 @@ export const experience = [
         company: "Softvence",
         position: "Frontend Developer",
         period: "2023 - 2024",
-        description: "Built and maintained web applications, participated in code reviews, and contributed to the development of internal tools and libraries.",
+        description: "Developed and maintained responsive web interfaces using modern frontend technologies. Collaborated in feature implementation, participated in code reviews, and contributed to improving UI components and internal tools.",
         technologies: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "Javascript", "React", "Redux"]
     }
 ]
