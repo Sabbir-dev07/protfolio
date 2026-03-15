@@ -36,7 +36,7 @@ export const socialLinks = [
 
 // Stats
 export const stats = [
-    { label: "Projects Completed", value: 50, suffix: "+" },
+    { label: "Projects Completed", value: 650, suffix: "+" },
     { label: "Years Experience", value: 3, suffix: "+" }
 ]
 
